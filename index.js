@@ -15,7 +15,7 @@ octokit.rest.issues.create({
   
   学习内容：
   
-  阅读书籍： `,
+  阅读书籍：  `,
 });
 
 function getTitle() {
