@@ -19720,8 +19720,7 @@ octokit.rest.issues.create({
 
 function getTitle() {
   // UTC时间转化
-  const time = Number(new Date() + 8 * 3600 * 1000);
-  return "【每日计划】" + " " + dayjs(time).format("YYYY-MM-DD");
+  return "【每日计划】" + " " + dayjs().add("8", "hour").format("YYYY-MM-DD");
 }
 
 })();
