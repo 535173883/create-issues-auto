@@ -1,8 +1,10 @@
 const { Octokit } = require("octokit");
 const dayjs = require("dayjs");
-
+const core = require("@actions/core");
+const token = core.getInput("token");
+// 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
 const octokit = new Octokit({
-  auth: `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`,
+  auth: token,
 });
 
 octokit.rest.issues.create({

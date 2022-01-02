@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"ncc build index.js --license licenses.tx"
+    "build": "ncc build index.js --license licenses.tx"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "@vercel/ncc": "^0.33.1",
     "dayjs": "^1.10.7",
     "octokit": "^1.7.1"
