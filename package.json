@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"ncc build index.js --license licenses.tx"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vercel/ncc": "^0.33.1",
+    "dayjs": "^1.10.7",
     "octokit": "^1.7.1"
   }
 }

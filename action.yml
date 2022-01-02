@@ -1,0 +1,10 @@
+name: "create issues auto"
+description: "Gcreate issues auto"
+# inputs:
+#   who-to-greet: # id of input
+#     description: "Who to greet"
+#     required: true
+#     default: "World"
+runs:
+  using: "node12"
+  main: "dist/index.js"
