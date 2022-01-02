@@ -7,7 +7,7 @@ const octokit = new Octokit({
 
 octokit.rest.issues.create({
   owner: "535173883",
-  repo: "daily-schedule",
+  repo: "create-issues-auto",
   title: getTitle(),
   body: ` 计划：
 
